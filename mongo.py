@@ -37,6 +37,7 @@ documents = coll.find()
 # coll.insert(new_doc)
 
 """ Insert multipe documents """
+
  new_docs = [{
      "first": "terry",
      "last": "pratchett",
@@ -54,6 +55,7 @@ documents = coll.find()
      "occupation": "writer",
      "nationality": "american"
  }]
+
  coll.insert_many(new_docs)
 
 """ Find documents with 'first' name set to 'douglas' """
